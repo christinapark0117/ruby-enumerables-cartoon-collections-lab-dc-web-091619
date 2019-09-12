@@ -6,6 +6,7 @@ end
 
 def summon_captain_planet(planteer_calls)
   planteer_calls.collect! {|call| call.capitalize}
+  planteer_calls.collect! {
 end
 
 def long_planeteer_calls(calls)
